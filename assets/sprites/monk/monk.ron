@@ -1,0 +1,143 @@
+//
+//  Sprite sheet data for Amethyst Game Engine: https://www.amethyst.rs
+//  This file was created by TexturePacker: https://www.codeandweb.com/texturepacker
+//
+//  $TexturePacker:SmartUpdate:758f76345a7c1ff0540b0bb12e109fb7:8a6c4d4be66109a24dcab33551ad20ae:24368fe6b4d2e434ae606b8d3a2d3275$
+//
+
+#![enable(implicit_some)]
+List((
+    texture_width: 661,
+    texture_height: 59,
+    sprites: [
+        (
+            // 0: walk-down/u_monk_west_walkA_x1_121.png
+            x: 357,
+            y: 1,
+            width: 36,
+            height: 51,
+            offsets: (0, 2),
+        ),
+        (
+            // 1: walk-down/u_monk_west_walkA_x1_130.png
+            x: 534,
+            y: 1,
+            width: 37,
+            height: 43,
+            offsets: (0, 5),
+        ),
+        (
+            // 2: walk-down/u_monk_west_walkA_x1_140.png
+            x: 624,
+            y: 1,
+            width: 36,
+            height: 42,
+            offsets: (0, 6),
+        ),
+        (
+            // 3: walk-down/u_monk_west_walkA_x1_150.png
+            x: 196,
+            y: 1,
+            width: 36,
+            height: 52,
+            offsets: (0, 1.5),
+        ),
+        (
+            // 4: walk-left/u_monk_west_walkA_x1_240.png
+            x: 271,
+            y: 1,
+            width: 44,
+            height: 51,
+            offsets: (0, 2),
+        ),
+        (
+            // 5: walk-left/u_monk_west_walkA_x1_250.png
+            x: 442,
+            y: 1,
+            width: 49,
+            height: 47,
+            offsets: (0, 3),
+        ),
+        (
+            // 6: walk-left/u_monk_west_walkA_x1_260.png
+            x: 573,
+            y: 1,
+            width: 49,
+            height: 42,
+            offsets: (0, 5.5),
+        ),
+        (
+            // 7: walk-left/u_monk_west_walkA_x1_270.png
+            x: 395,
+            y: 1,
+            width: 45,
+            height: 49,
+            offsets: (0, 1.5),
+        ),
+        (
+            // 8: walk-right/u_monk_west_walkA_x1_001.png
+            x: 234,
+            y: 1,
+            width: 35,
+            height: 52,
+            offsets: (0, 0),
+        ),
+        (
+            // 9: walk-right/u_monk_west_walkA_x1_010.png
+            x: 317,
+            y: 1,
+            width: 38,
+            height: 51,
+            offsets: (0, 0.5),
+        ),
+        (
+            // 10: walk-right/u_monk_west_walkA_x1_020.png
+            x: 493,
+            y: 1,
+            width: 39,
+            height: 45,
+            offsets: (0, 3),
+        ),
+        (
+            // 11: walk-right/u_monk_west_walkA_x1_030.png
+            x: 160,
+            y: 1,
+            width: 34,
+            height: 53,
+            offsets: (0, 0),
+        ),
+        (
+            // 12: walk-up/u_monk_west_walkA_x1_361.png
+            x: 1,
+            y: 1,
+            width: 38,
+            height: 57,
+            offsets: (0, 0),
+        ),
+        (
+            // 13: walk-up/u_monk_west_walkA_x1_370.png
+            x: 81,
+            y: 1,
+            width: 38,
+            height: 56,
+            offsets: (0, 0),
+        ),
+        (
+            // 14: walk-up/u_monk_west_walkA_x1_380.png
+            x: 121,
+            y: 1,
+            width: 37,
+            height: 53,
+            offsets: (0, 0.5),
+        ),
+        (
+            // 15: walk-up/u_monk_west_walkA_x1_390.png
+            x: 41,
+            y: 1,
+            width: 38,
+            height: 57,
+            offsets: (0, 0),
+        )
+    ]
+))
+
