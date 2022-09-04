@@ -6,11 +6,25 @@ fn main() {
         .add_plugins(DefaultPlugins)
         .add_startup_system(setup)
         .add_system(animate_sprite)
+        .add_system(move_monk)
         .run();
 }
 
 #[derive(Component, Deref, DerefMut)]
 struct AnimationTimer(Timer);
+
+#[derive(Component)]
+struct Monk();
+
+fn move_monk(
+    time: Res<Time>,
+    mut query: Query<(&mut Transform, With<Monk>)>,
+) {
+    for (mut transform) in query.iter_mut() {
+        transform.0.translation = transform.0.translation + Vec3::ONE;
+    }
+}
+
 
 fn animate_sprite(
     time: Res<Time>,
@@ -45,5 +59,6 @@ fn setup(
             transform: Transform::from_scale(Vec3::splat(1.0)),
             ..default()
         })
-        .insert(AnimationTimer(Timer::from_seconds(0.1, true)));
+        .insert(AnimationTimer(Timer::from_seconds(0.1, true)))
+        .insert(Monk());
 }
